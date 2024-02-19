@@ -1,0 +1,84 @@
+body {
+    font-family: Karla, sans-serif;
+    color: #484848
+}
+
+nav ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+header {
+    background-color: #ff5a5f;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+}
+
+#logo {
+    height: 80px
+}
+
+nav {
+    display: inline-block;
+    float: right;
+}
+nav li {
+    display: inline-block;
+    margin-left: 40px;
+    line-height: 80px;
+}
+
+/* Change the font color to white
+Change the font size to 18px
+Remove the underline
+Change the pointer - usually we can tell something on a page is clickable when it turns into the index-finger-pointing cursor. Do this with cursor: pointer;.
+Add a new block of css so that the link is underlined when you hover over it */
+nav a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav :hover {
+    text-decoration: underline;
+}
+
+nav a:visited {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.content {
+    width: 900px;
+    margin: auto;
+}
+
+section {
+    padding: 20px;
+    border: 1px solid #cccccc;  
+    margin-bottom: 20px;
+}
+
+section img {
+    width: 300px; 
+}
+
+h1 {
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+section p {
+    font-size: 18px;
+}
